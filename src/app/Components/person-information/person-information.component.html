@@ -1,0 +1,556 @@
+
+<header dir="rtl" class="  SignInMain min-vh-100 w-100   d-flex justify-content-center align-items-center  ">
+
+    <div class="background w-100">
+        <li class="z-0"></li>
+        <li class="z-0"></li>
+        <li class="z-0"></li>
+        <li class="z-0"></li>
+        <li class="z-0"></li>
+        <li class="z-0"></li>
+
+    </div>
+  
+ 
+
+<section class=" z-1 border border-3 bg-white w-75 min-vh-100  rounded rounded-5 my-5 d-flex flex-column align-items-center shadow-lg py-4 ">
+
+    
+    <div dir="rtl"  class="d-flex justify-content-center align-items-center">
+
+        <div [class]="SliderOneNav == true ? 'navBackGround': '' " class="rounded rounded-circle border border-3 shadow-lg BigBall mx-2 d-flex justify-content-center align-items-center">
+
+            <h4  class="fw-bolder">١</h4>
+
+        </div>
+
+        <div [class]="SliderOneNav == true ? 'navBackGround': '' " class="shadow-lg rounded rounded-circle SmallBall mx-1 border border-2">
+
+        </div>
+
+        <div [class]="SliderOneNav == true ? 'navBackGround': '' " class="shadow-lg rounded rounded-circle SmallBall border border-2">
+
+        </div>
+
+        <div [class]="SliderTwoNav == true ? 'navBackGround': '' " class="shadow-lg rounded rounded-circle border border-3  BigBall mx-2 d-flex justify-content-center align-items-center">
+            <h4 class="fw-bolder">٢</h4>
+
+        </div>
+
+        <div [class]="SliderTwoNav == true ? 'navBackGround': '' " class="shadow-lg rounded rounded-circle SmallBall mx-1 border border-2">
+
+        </div>
+
+        <div [class]="SliderTwoNav == true ? 'navBackGround': '' " class="shadow-lg rounded rounded-circle SmallBall mx-1 border border-2">
+
+        </div>
+
+        <div [class]="SliderThreeNav == true ? 'navBackGround': '' " class=" shadow-lg rounded rounded-circle border border-3  BigBall mx-2 d-flex justify-content-center align-items-center">
+
+            <h4 class="fw-bolder">٣</h4>
+
+        </div>
+
+
+    </div>
+
+
+    <div class="w-75 h-100 ">
+
+        <div class="SliderOne">
+            <h2 class="fw-bold d-block text-center py-4">اولا: بيانات العميل</h2>
+
+            <div class="row">
+
+
+                <div class="col-lg-6 col-sm-12">
+                    <div>
+
+                        <label class="mt-2" for="Code">كود العميل:</label>
+                        <input  class="form-control mt-1" id="Code" name="Code" placeholder="ادخل كود العميل" type="text">
+
+
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-sm-12">
+                    <div>
+
+                        <label class="mt-2" for="UserName">اسم العميل:</label>
+                        <input  class="form-control mt-1" id="UserName" name="UserName" placeholder="ادخل اسم العميل" type="text">
+                
+
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-sm-12">
+                    <div>
+
+                        <label class="mt-2" for="NationNumber"> الرقم القومي:</label>
+                        <input  class="form-control mt-1" id="NationNumber" name="NationNumber" placeholder="ادخل الرقم القومي للعميل" type="text">
+                
+
+                    </div>
+                </div>
+
+
+                <div class="col-lg-6 col-sm-12">
+                    <div>
+
+                        <label class="mt-2" for="HomeNumber">  تليفون المنزل:</label>
+                        <input  class="form-control mt-1" id="HomeNumber" name="HomeNumber" placeholder="ادخل  تليفون المنزل للعميل" type="text">
+                
+
+                    </div>
+                </div>
+
+
+                <div class="col-lg-6 col-sm-12">
+                    <div>
+
+                        <label class="mt-2" for="PhoneNumber">   الموبايل:</label>
+                        <input  class="form-control mt-1" id="PhoneNumber" name="PhoneNumber" placeholder="ادخل موبيل العميل" type="text">
+                
+
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-sm-12">
+                    <div>
+
+                        <label class="mt-2" for="Client"> العميل:</label>
+                        <input  class="form-control mt-1" id="Client" name="Client" placeholder="ادخل صفة العميل" type="text">
+                
+
+                    </div>
+                </div>
+
+
+                <div class="col-lg-6 col-sm-12">
+                    <div>
+
+                        <label class="mt-2" for="ClientJob"> وظيفة العميل:</label>
+                        <input  class="form-control mt-1" id="ClientJob" name="ClientJob" placeholder="ادخل وظيفة العميل" type="text">
+                
+
+                    </div>
+                </div>
+
+
+                <div class="col-lg-6 col-sm-12">
+                    <div>
+
+                        <label class="mt-2" for="ClientCareNumber"> الرقم التأميني:</label>
+                        <input  class="form-control mt-1" id="ClientCareNumber" name="ClientCareNumber" placeholder="ادخل الرقم التأميني للعميل" type="text">
+                
+
+                    </div>
+                </div>
+
+
+                <div class="col-lg-6 col-sm-12">
+                    <div>
+
+                        <label class="mt-2" for="DateOfHire"> تاريخ التعيين:</label>
+                        <input  class="form-control mt-1" id="DateOfHire" name="DateOfHire" placeholder="ادخل تاريخ التعيين للعميل" type="date">
+                
+
+                    </div>
+                </div>
+
+
+                <div class="col-lg-6 col-sm-12">
+                    <div>
+
+                        <label class="mt-2" for="ClientApproveIncome"> تم الاطلاع اثبات الدخل:</label>
+                        <input  class="form-control mt-1" id="ClientApproveIncome" name="ClientApproveIncome" placeholder=" تم الاطلاع اثبات الدخل " type="text">
+                
+
+                    </div>
+                </div>
+
+
+
+                <div class="col-lg-6 col-sm-12">
+                    <div>
+
+                        <label class="mt-2" for="ClientIncome"> دخل العميل الشهري:</label>
+                        <input  class="form-control mt-1" id="ClientIncome" name="ClientIncome" placeholder="ادخل دخل العميل الشهري" type="text">
+                
+
+                    </div>
+                </div>
+
+
+
+                <div class="col-lg-6 col-sm-12">
+                    <div>
+
+                        <label class="mt-2" for="ClientRegisterType"> نوع التعاقد:</label>
+                        <input  class="form-control mt-1" id="ClientRegisterType" name="ClientRegisterType" placeholder="ادخل نوع تعاقد العميل" type="text">
+                
+
+                    </div>
+                </div>
+
+
+
+                <div class="col-lg-6 col-sm-12">
+                    <div>
+
+                        <label class="mt-2" for="ClientEmail"> البريد الالكتروني للعميل:</label>
+                        <input  class="form-control mt-1" id="ClientEmail" name="ClientEmail" placeholder="ادخل البريد الالكتروني للعميل" type="text">
+                
+
+                    </div>
+                </div>
+
+
+
+                <div class="col-lg-6 col-sm-12">
+                    <div>
+
+                        <label class="mt-2" for="ClientVist"> أثناء الزيارة للعميل:</label>
+                        <input  class="form-control mt-1" id="ClientVist" name="ClientVist" placeholder="  زيارة العميل" type="text">
+                
+
+                    </div>
+                </div>
+
+
+
+                <div class="col-lg-6 col-sm-12">
+                    <div>
+
+                        <label class="mt-2" for="ClientWorkOutSide"> طبيعة العمل خارج الشركة:</label>
+                        <input  class="form-control mt-1" id="ClientWorkOutSide" name="ClientWorkOutSide" placeholder="ادخل طبيعة العمل خارج الشركة " type="text">
+                
+
+                    </div>
+                </div>
+
+
+
+                <div class="col-lg-6 col-sm-12">
+                    <div>
+
+                        <label class="mt-2" for="Exp"> خبرة سابقة :</label>
+                        <input  class="form-control mt-1" id="Exp" name="Exp" placeholder="ادخل الخبرات السابقة للعميل" type="text">
+                
+
+                    </div>
+                </div>
+
+
+                <div class="col-lg-6 col-sm-12">
+                    <div>
+
+                        <label class="mt-2" for="LastWorkPlace"> اخر مكان عمل:</label>
+                        <input  class="form-control mt-1" id="LastWorkPlace" name="LastWorkPlace" placeholder="ادخل اخر مكان عمل للعميل" type="text">
+                
+
+                    </div>
+                </div>
+
+
+                <div class="col-lg-6 col-sm-12">
+                    <div>
+
+                        
+                    <label class="mt-2" for="LastJob"> الوظيفة السابقة:</label>
+                    <input  class="form-control mt-1" id="LastJob" name="LastJob" placeholder="ادخل الوظيفة السابقة للعميل" type="text">
+
+
+
+                    </div>
+                </div>
+
+
+                
+                <div class="col-lg-6 col-sm-12">
+                    <div>
+
+                        
+                  
+                    <label class="mt-2" for="Duration"> المدة:</label>
+                    <input  class="form-control mt-1" id="Duration" name="Duration" placeholder="ادخل المدة للعميل" type="text">
+
+
+
+                    </div>
+                </div>
+
+
+        
+
+
+            </div>
+
+        
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+        <div style="display: none;" class="SliderTwo">
+
+            <h2 class="fw-bold d-block text-center py-4">ثانيا: بيانات عن العمل</h2>
+
+
+            <div class="row">
+
+
+                <div class="col-lg-6 col-sm-12">
+                    <div>
+
+                        <label class="mt-2" for="CompanyName"> اسم الشركة:</label>
+                        <input  class="form-control mt-1" id="CompanyName" name="CompanyName" placeholder="ادخل اسم الشركة للعميل" type="text">
+            
+
+                    </div>
+                </div>
+
+
+                <div class="col-lg-6 col-sm-12">
+                    <div>
+
+                        <label class="mt-2" for="CompanyWorkType"> طبيعة عمل الشركة:</label>
+                        <input  class="form-control mt-1" id="CompanyWorkType" name="CompanyWorkType" placeholder="ادخل طبيعة عمل الشركة للعميل" type="text">
+            
+
+                    </div>
+                </div>
+
+
+                <div class="col-lg-6 col-sm-12">
+                    <div>
+
+                        <label class="mt-2" for="CompanyAddress"> عنوان الشركة:</label>
+                        <input  class="form-control mt-1" id="CompanyAddress" name="CompanyAddress" placeholder="ادخل عنوان الشركة للعميل" type="text">
+                        
+
+                    </div>
+                </div>
+
+
+                <div class="col-lg-6 col-sm-12">
+                    <div>
+
+                        <label class="mt-2" for="LawShape"> الشكل القانوني:</label>
+                        <input  class="form-control mt-1" id="LawShape" name="LawShape" placeholder="ادخل الشكل القانوني " type="text">
+
+
+                    </div>
+                </div>
+
+
+                <div class="col-lg-6 col-sm-12">
+                    <div>
+
+                        <label class="mt-2" for="SpecialMark"> علامة مميزة:</label>
+                        <input  class="form-control mt-1" id="SpecialMark" name="SpecialMark" placeholder="ادخل العلامة المميزة " type="text">
+
+
+                    </div>
+                </div>
+
+
+                <div class="col-lg-6 col-sm-12">
+                    <div>
+
+                        <label class="mt-2" for="hiaza"> حيازة مقر الشركة:</label>
+                        <input  class="form-control mt-1" id="hiaza" name="hiaza" placeholder="ادخل حيازة مقر الشركة " type="text">
+
+
+                    </div>
+                </div>
+
+
+                <div class="col-lg-6 col-sm-12">
+                    <div>
+
+                        <label class="mt-2" for="StayDuration"> فترة الاقامة في هذا المقر :</label>
+                        <input  class="form-control mt-1" id="StayDuration" name="StayDuration" placeholder="ادخل فترة الاقامة " type="text">
+            
+
+                    </div>
+                </div>
+
+
+                <div class="col-lg-6 col-sm-12">
+                    <div>
+
+                        <label class="mt-2" for="AbiltyToReach"> امكانية الوصول:</label>
+                        <input  class="form-control mt-1" id="AbiltyToReach" name="AbiltyToReach" placeholder="ادخل امكانية الوصول" type="text">
+            
+
+                    </div>
+                </div>
+
+
+                <div class="col-lg-6 col-sm-12">
+                    <div>
+
+                        <label class="mt-2" for="DescOfReach"> وصف الوصول للشركة:</label>
+                        <input  class="form-control mt-1" id="DescOfReach" name="DescOfReach" placeholder="ادخل وصف الوصول للشركة" type="text">
+            
+
+                    </div>
+                </div>
+
+
+                <div class="col-lg-6 col-sm-12">
+                    <div>
+
+                        <label class="mt-2" for="CompanySign"> هل توجد لافتة باسم الشركة:</label>
+                        <input  class="form-control mt-1" id="CompanySign" name="CompanySign" placeholder="هل نوجد لافتة للشركة؟" type="text">
+            
+
+                    </div>
+                </div>
+
+
+
+                <div class="col-lg-6 col-sm-12">
+                    <div>
+
+                        <label class="mt-2" for="CompanySignWrite"> مدون علي الافتة:</label>
+                        <input  class="form-control mt-1" id="CompanySignWrite" name="CompanySignWrite" placeholder="ادخل المدون علي الافتة" type="text">
+            
+
+                    </div>
+                </div>
+
+
+
+                <div class="col-lg-6 col-sm-12">
+                    <div>
+
+                        <label class="mt-2" for="DescOfReach"> تحديد الموقع :</label>
+                        <input  class="form-control mt-1" id="DescOfReach" name="DescOfReach" placeholder="ادخل وصف الوصول للشركة" type="text">
+
+
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-sm-12">
+                    <div>
+
+                        <label class="mt-2" for="ClientPhoneNumber">   تليفون العميل:</label>
+                        <input  class="form-control mt-1" id="ClientPhoneNumber" name="ClientPhoneNumber" placeholder="ادخل رقم العميل " type="text">
+            
+
+                    </div>
+                </div>
+
+
+                <div class="col-lg-6 col-sm-12">
+                    <div>
+
+                        <label class="mt-2" for="OtherClientPhoneNumber">   ارقام تواصل اخري:</label>
+                        <input  class="form-control mt-1" id="OtherClientPhoneNumber" name="OtherClientPhoneNumber" placeholder="ادخل ارقام تواصل اخري " type="text">
+
+
+                    </div>
+                </div>
+
+
+              
+
+
+
+
+            </div>
+
+           
+            
+
+    
+    
+         </div>
+
+
+     <div style="display: none;" class="SliderThree">
+
+        <h2 class="fw-bold d-block text-center py-4">ثالثا: بيانات الاستدلال</h2>
+
+
+        <label class="mt-2" for="PersonMeeting">   اسم الشخص الذي تمت مقابلته:</label>
+        <input  class="form-control mt-1" id="PersonMeeting" name="PersonMeeting" placeholder="ادخل اسم الشخص الذي تمت مقابلته " type="text">
+
+        <label class="mt-2" for="PersonJob">وظيفته:</label>
+        <input  class="form-control mt-1" id="PersonJob" name="PersonJob" placeholder="ادخل وظيفة الشخص " type="text">
+
+        <label class="mt-2" for="PersonPhone">تليفون:</label>
+        <input  class="form-control mt-1" id="PersonPhone" name="PersonPhone" placeholder="ادخل تليفون الشخص " type="text">
+
+        <label class="mt-2" for="PersonDateVisit">تاريخ الزيارة:</label>
+        <input  class="form-control mt-1" id="PersonDateVisit" name="PersonDateVisit" placeholder="ادخل تاريخ زيارة الشخص " type="date">
+
+
+        <label class="mt-5" for="Notes">ملاحظات عن زيارة العمل:</label>
+        <textarea  class="form-control mt-1" id="Notes" name="Notes" placeholder="   " type="text"></textarea>
+
+
+
+
+
+
+            
+
+
+
+    
+         </div>
+
+
+
+          
+    
+
+    </div>
+
+    <div class="d-flex justify-content-between w-75 pt-4  mt-auto" >
+
+
+        <button (click)="BackSlider()" style="display: none;" class="btn  btn-outline-dark BtnBack py-lg-2 px-lg-3 "><i class="fa-solid fa-arrow-right ps-2"></i>الرجوع </button>
+
+
+        <button (click)="NextSilder()" class="btn btn-primary MainColor me-auto  BtnNext py-lg-2 px-lg-3">التالي<i class="fa-solid fa-arrow-left pe-2"></i></button>
+
+
+        <button  style="display: none;" class="btn btn-primary  MainColor  SubmitBtn py-lg-3 py-lg-2 px-lg-3">انشاء<i class="fa-solid fa-arrow-left pe-2"></i></button>
+
+
+
+
+
+        
+   
+
+    </div>
+
+    
+
+
+</section>
+
+
+
+
+</header>
+
+
+
+
+
+
+
+
